@@ -8,6 +8,10 @@
 	<link href="css/bootstrap-custom.css" rel="stylesheet">
 	<link href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+	
+	<meta name="Description" content="Página de home Adobe resort, Adobe resort">
+	<meta name="Keywords" content="Reservaciones Adobe resort, p,  Página de homeAdobe resort, Adobe resort honduras, Hotel, resort">
+	
 </head> 
 
 <body>
@@ -27,7 +31,7 @@
 						  <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
 						</li>
 						<li class="nav-item">
-						  <a class="nav-link" href="#">Reservar</a>
+						  <a class="nav-link" href="reservaciones.html">Reservar</a>
 						</li>
 						<li class="nav-item">
 						  <a class="nav-link" href="#">Habitaciones</a>
@@ -49,7 +53,35 @@
 	</header>
 	
 	<section id="hero">
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+			  <div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			  </div>
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <img src="img/cozy-studio-apartment-with-bedroom-and-living-space.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+				  <img src="img/hotel-room-interior-with-bedroom-area-living-space-and-kitchen.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+				  <img src="img/thomas-william-OAVqa8hQvWI-unsplash (2).jpg" class="d-block w-100" alt="...">
+				</div>
+			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			  </button>
+			</div>
 	</section>
+	
+	
 	
 	<section id="bienvenidos">
 		<div class="container">
@@ -139,42 +171,50 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<article class="col-md-4 col-sm-4 col-12">
+				
+				<article class="col-md-3 col-sm-3 col-12">
+					<img src="img/Adobe resort logo.png" alt="Adobe Resort Logo" width="200px" class="img-fluid">
+				</article>
+				<article class="col-md-3 col-sm-3 col-12">
 					<h1 class="titulo-footer">Adobe resort</h1>
 					<p class="texto-footer">Sobre nosotros</p>
 					<p class="texto-footer">Ubicaciones</p>
 				</article>
-				<article class="col-md-4 col-sm-4 col-12">
+				<article class="col-md-3 col-sm-3 col-12">
 					<h1 class="titulo-footer">Terminos y políticas</h1>
 					<p class="texto-footer">Garantía de mejor tarifa</p>
 					<p class="texto-footer">Aviso de privacidad</p>
 					<p class="texto-footer">Términos de uso</p>
 					<p class="texto-footer">Aceptación de Cookies</p>
 				</article>
-				<article class="col-md-4 col-sm-4 col-12">
+				<article class="col-md-3 col-sm-3 col-12">
 					<h1 class="titulo-footer">Contáctanos</h1>
 					<p class="texto-footer">Reservas: (800) 755 - 6876</p>
 					<p class="texto-footer">Atención al cliente/Ayuda</p>
 				</article>
 				
 				<div class="text-center mt-5">
-					<div class="row">
-						<article class="col-md-6 col-sm-6 col-12">
-							<img src="img/Adobe resort logo.png" alt="Adobe Resort Logo" width="200px" class="img-fluid">
-						</article>
-						
-						<article class="col-md-6 col-sm-6 col-12">
+					
 							
 							<img src="img/Asset 1.png" alt="Adobe Resort Logo" width="200px" class="img-fluid">
-						</article>
+					
 					</div>
 				</div>
 			</div>
-		</div>
+		
 	</footer>
 	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-74SQY28Z4V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-74SQY28Z4V');
+</script>
 	
 </body>
 </html>

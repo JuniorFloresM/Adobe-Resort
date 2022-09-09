@@ -9,9 +9,8 @@
 	<link href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	
-	<meta name="Description" content="Página de eventos Adobe resort, eventos de Adobe resort">
-	<meta name="Keywords" content="eventos Adobe resort, eventos, Adobe resort, Adobe resort honduras, Hotel, resort">
-	
+	<meta name="Description" content="Página de reservaciones Adobe resort, teléfono y dirección de Adobe resort">
+	<meta name="Keywords" content="Reservaciones Adobe resort, Adobe resort, Adobe resort honduras, Hotel, resort">
 </head> 
 
 <body>
@@ -30,19 +29,19 @@
 						<li class="nav-item" >
 						  <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item active">
 						  <a class="nav-link" href="reservaciones.html">Reservar</a>
 						</li>
 						<li class="nav-item">
 						  <a class="nav-link" href="#">Habitaciones</a>
 						</li>
-						<li class="nav-item active" >
-						  <a class="nav-link" href="eventos.html"> Eventos</a>
+						<li class="nav-item">
+						  <a class="nav-link" href="eventos.html">Eventos</a>
 						</li>
 						  <li class="nav-item">
 						  <a class="nav-link" href="#">Galería</a>
 						</li>
-						  <li class="nav-item">
+						  <li class="nav-item ">
 						  <a class="nav-link" href="ubicacion.html">Ubicación</a>
 						</li>
 					</ul>					 
@@ -52,61 +51,87 @@
 		</div>
 	</header>
 	
-	<section id="hero-eventos">
-		<h1 class="titulo">Salones Para Eventos</h1>
+	<section id="hero-reservaciones">
+		<h1 class="titulo">Reservaciones</h1>
+		<div class="container"><hr></div>
+		<p class="texto-hero">Haga sus reservaciones a través de nuestros teléfonos, E-mail, o simplemente llenando el siguiente dormulario</p>
 	</section>
+	
+	<div class="container">
+		<section id="foto-reservaciones">
+		</section>
 		
-	<section id="salones">
-		<div class="container">
-		<h1 class="titulo2">Salones para eventos y conferencias</h1>
+		<div class="container formulario">
+		<div class="row">
+			<article class="col-md-7 col-sm-7 col-12">
 			<div class="row">
-				<article class="col-md-5 col-sm-5 col-12">
-					<img src="img/omar-rodriguez-XYuNwlYtfLI-unsplash (2).jpg" alt="conferencias" width="500px" class="img-fluid" >
-				</article>
-				<article class="col-md-7 col-sm-7 col-12">
-					<p class="texto">Ponemos a su disposición 8 Salas de Eventos con capacidad desde 16 hasta 1000 personas, con todo lo necesario para la realización de eventos tales como: bodas, quince años, seminarios, cursos, exposiciones y todo tipo de eventos sociales o profesionales. </p>
-					<p class="texto"> El alquiler de nuestros salones incluye: aire acondicionado, servicio de agua durante el evento, sillas acolchonadas, mesas, mantelería, cristalería, pantalla, pódium y un micrófono.</p>
-				</article>
 				
-				
+				<div class="mt-2 col-md-6 col-sm-6 col-12">
+					<p>Nombre</p>
+					<input name="nombre" type="text" class="form-control" placeholder="nombre" required >
+				</div>
+				<div class="mt-2 col-md-6 col-sm-6 col-12">
+					<p>Fecha de llegada</p>				
+					<input name="date" type="date" class="form-control" placeholder="*Fecha de llegada" required>
+				</div>
 			</div>
+			
+			<div class="row">
+			<div class="mt-2 col-md-6 col-sm-6 col-12">
+				<p>E-mail</p>
+				<input name="email" type="email" class="form-control" placeholder="email" required>
+			</div>
+			<div class="mt-2 col-md-6 col-sm-6 col-12">
+				<p>Fecha de salida</p>
+				<input name="date" type="date" class="form-control" placeholder="*Fecha de salida" required>
+			</div>
+			
+			</div>
+				
+			<div class="row">
+			<div class="mt-2 col-md-6 col-sm-6 col-12">
+				<p>pais</p>
+				 <input name="country" type="text" class="form-control" placeholder="país" required>
+			</div>
+			</div>
+				
+			</article>
+			
+			<article class="col-md-5 col-sm-5 col-12">
+				<div class="mt-2">
+					<textarea name="message" type="text" class="form-control" placeholder="Mensaje" rows="10" required> </textarea>
+				</div>
+			</article>
+			
 		</div>
 			
-		<div class="container">
-			<hr>
-			<h1 class="titulo2">Servicio de Banquetes</h1>
-			<div class="row">
-				<article class="col-md-5 col-sm-5 col-12">
-					<img src="img/thomas-william-OAVqa8hQvWI-unsplash (2).jpg" alt="conferencias" width="500px" class="img-fluid" >
-				</article>
-				<article class="col-md-7 col-sm-7 col-12">
-					<p class="texto">Ponemos a su disposición 8 Salas de Eventos con capacidad desde 16 hasta 1000 personas, con todo lo 
-					necesario para la realización de eventos tales como: bodas, quince años, seminarios, cursos, exposiciones y todo tipo de eventos sociales o profesionales.</p>  <p class="texto"> El alquiler de nuestros salones incluye: aire acondicionado, servicio de agua durante el evento, sillas acolchonadas, mesas, mantelería, cristalería, pantalla, pódium y un micrófono.</p>
-				</article>
-				
-				
-			</div>
+				<p>*Los campos marcados con asterisco son obligatorios.</p>
+			
+		<div class="mt-2 formulario-2">
+			<button type="submit" class="btn btn-adoberesort">Submit
+			</button>
 		</div>
+			
+			
+	</div>
 		
-		<div class="container">
-		<hr>
-			<h1 class="titulo2">Salon de usos multiples</h1>
-			<div class="row">
-				<article class="col-md-5 col-sm-5 col-12">
-					<img src="img/omar-rodriguez-XYuNwlYtfLI-unsplash (2).jpg" alt="conferencias" width="500px" class="img-fluid" >
-				</article>
-				<article class="col-md-7 col-sm-7 col-12">
-					<p class="texto">Para mayor información y reservación de locales y servicios contáctenos a:</p>
-					<p class="texto">Departamento de Eventos y Banquetes </p>
-<p class="texto">Tel: 2443-0223, 2443-6107 al 09 Ext. 501 o 170 </p>
-<p class="texto">Cel: 9439-6441 </p>
-<p class="texto">eventosadoberesort@gmail.com </p>
-				</article>
-				
-				
-			</div>
-		</div>
-	</section>
+	</div>	
+	
+	<div class="container condiciones">
+		<h3 class="subtitulos">Garantía y Cancelaciones</h3>
+		<p class="texto">	*Este formulario no garantiza su reservación si no recibe una confirmación de nuestros agentes de reservaciones. </p>
+		<p class="texto">* Los niños hasta 7 años reciben tarifa preferencial, restricciones aplican.</p>
+		<p class="texto">* Las reservaciones solo podrán garantizarse con una orden de compra, o con un depósito en nuestra cuenta bancaria, 
+		o con una autorización de tarjeta de crédito.</p>
+		<p class="texto">* Para ser aceptada, la cancelación de reservaciones deberá hacerse con una antelación mínima de 24 horas antes de 
+		la fecha prevista de llegada al hotel.</p>
+		<p class="texto">* Las reservaciones No Show se cobrarán con el 100% del valor de la primera noche de alojamiento.</p>
+		<p class="texto">* Durante los periodos de Semana Santa y del Carnaval de La Ceiba, estas condiciones de cancelación y reintegro 
+		pueden variar.</p>
+		<p class="texto">* Para cualquier consulta o información adicional, por favor contáctenos a través de nuestros teléfonos o e-mail y con 
+		mucho gusto le atenderemos de inmediato</p>
+	</div>
+	
 	
 	
 	<footer>

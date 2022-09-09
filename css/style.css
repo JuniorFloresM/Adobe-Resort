@@ -9,12 +9,12 @@ header{
 }
 
 #hero{
-	background-image: url("../img/cozy-studio-apartment-with-bedroom-and-living-space.jpg");
+	/*background-image: url("../img/cozy-studio-apartment-with-bedroom-and-living-space.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	padding: 20% 0;
-	text-align: center;
+	text-align: center;*/
 }
 
 #hero-map{	
@@ -36,12 +36,14 @@ header{
 	font-family: 'Abril Fatface', cursive;
 	color: #fdb740;
 	padding: 40px 0;
+	letter-spacing: 2px;
 }
 
 .titulo2{
 	font-family: 'Abril Fatface', cursive;
 	color: #236A75;
 	padding: 40px 0;
+	letter-spacing: 2px;
 }
 
 .texto{
@@ -119,6 +121,11 @@ footer{
 	font-size: 20px;
 }
 
+.texto-hero{
+	padding-bottom: 30px;
+	color: #fff;
+}
+
 #hero-eventos{
 	background-image: url("../img/pattern.png");
 	padding-top: 2% 0;
@@ -128,6 +135,71 @@ footer{
 	text-align: center;
 }
 
+
+#hero-reservaciones{
+	background-image: url("../img/pattern.png");
+	padding-top: 2% 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+}
+
+#foto-reservaciones{
+	background-image: url("../img/fernando-alvarez-rodriguez-M7GddPqJowg-unsplash (1).jpg");
+	padding-top: 2% 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	padding: 200px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
 #salones{
 	padding: 20px 0;
+}
+
+.formulario{
+	background-color: #dbdbdb;
+}
+
+.btn-adoberesort{
+	background-color: #fdb740;
+	color: #FFFFFF;
+	width:150px;
+	height:40px;
+	border-radius: 0%;
+	text-decoration: none;
+	margin-bottom: 30px;
+}
+
+.formulario-2{
+	background-color: #dbdbdb;
+	text-align: center;
+}
+
+.condiciones{
+	text-align: center;
+	border-spacing: 3px;
+	padding: 30px;
+}
+
+#hero .overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+#hero .carousel-caption{
+	z-index: 2;
+}
+
+.capa-absolute{
+	position: absolute;
+	top: 0;
 }
