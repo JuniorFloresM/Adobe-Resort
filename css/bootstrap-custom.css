@@ -116,6 +116,21 @@ a{
     min-height: 500px;
 }
 
+.carousel-item-galeria{
+ /*height: 100vh; opcional: en caso de no utilizar una imagen de fondo por slide*/
+}
+/*Altura definida para el Carousel manteniendo el aspecto de la imagen*/
+.carousel .carousel-item-galeria {
+  height: 500px;
+}
+.carousel-item-galeria img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
 
 
 

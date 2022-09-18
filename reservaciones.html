@@ -7,6 +7,7 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/bootstrap-custom.css" rel="stylesheet">
 	<link href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	
 	<meta name="Description" content="Página de reservaciones Adobe resort, teléfono y dirección de Adobe resort">
@@ -14,7 +15,13 @@
 </head> 
 
 <body>
-	<header>
+	<div class="to-top">
+		<a href="#top"> <i class="las la-caret-up"></i> </a>
+	</div>
+	
+	
+	
+	<header class="top">
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			  <div class="container-fluid">
@@ -33,13 +40,13 @@
 						  <a class="nav-link" href="reservaciones.html">Reservar</a>
 						</li>
 						<li class="nav-item">
-						  <a class="nav-link" href="#">Habitaciones</a>
+						  <a class="nav-link" href="Habitaciones.html">Habitaciones</a>
 						</li>
 						<li class="nav-item">
 						  <a class="nav-link" href="eventos.html">Eventos</a>
 						</li>
 						  <li class="nav-item">
-						  <a class="nav-link" href="#">Galería</a>
+						  <a class="nav-link" href="Galería.html">Galería</a>
 						</li>
 						  <li class="nav-item ">
 						  <a class="nav-link" href="ubicacion.html">Ubicación</a>
@@ -92,6 +99,41 @@
 			<div class="mt-2 col-md-6 col-sm-6 col-12">
 				<p>pais</p>
 				 <input name="country" type="text" class="form-control" placeholder="país" required>
+			</div>
+			<div class="mt-2 col-md-6 col-sm-6 col-12">
+				<div class="row">
+						
+						<div class="col-md-6 col-sm-6 col-12">
+							<p>Adultos</p>
+							<select class="form-select" aria-label="Default select example">
+							  	<option selected>seleccionar</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+							</select>
+						</div>
+						<div class="col-md-6 col-sm-6 col-12">
+							<p>Niños</p>
+							<select class="form-select" aria-label="Default select example">
+							  	<option selected>seleccionar</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+							</select>
+						</div>
+					</div>
 			</div>
 			</div>
 				
@@ -172,6 +214,7 @@
 	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 	
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-74SQY28Z4V"></script>
 <script>

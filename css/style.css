@@ -8,7 +8,8 @@ header{
 	padding: 10px 0;
 }
 
-#hero{
+#hero{	
+	z-index: 1;
 	/*background-image: url("../img/cozy-studio-apartment-with-bedroom-and-living-space.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -46,9 +47,52 @@ header{
 	letter-spacing: 2px;
 }
 
+.titulo3{
+	font-family: 'Abril Fatface', cursive;
+	color: #236A75;
+	padding: 5px 0;
+	letter-spacing: 2px;
+}
+
+.titulo4{
+	font-family: 'Abril Fatface', cursive;
+	color: #236A75;
+	padding: 5px 0;
+	letter-spacing: 2px;text-align: right
+}
+
+.precio{
+	font-family: 'Abril Fatface', cursive;
+	color: #000;
+	letter-spacing: 2px;
+	text-align: right;
+}
+
+.precio2{
+	font-family: 'Red Hat Display', sans-serif;
+	color: #000;
+	letter-spacing: 2px;
+	text-align: right;
+	margin-bottom: 20%;
+}
+
 .texto{
 	font-family: 'Red Hat Display', sans-serif;
 	font-size: 20px;
+	color: #595959;
+	letter-spacing: 1px;
+}
+
+.texto2{
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 15px;
+	color: #595959;
+	letter-spacing: 1px;
+}
+
+.texto-habitaciones{
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 15px;
 	color: #595959;
 	letter-spacing: 1px;
 }
@@ -64,12 +108,12 @@ header{
 }
 
 #galeria{
-	background-image: url("../img/hotel-room-interior-with-bedroom-area-living-space-and-kitchen.jpg");
+	/*background-image: url("../img/hotel-room-interior-with-bedroom-area-living-space-and-kitchen.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	padding: 15% 0;
-	text-align: center;
+	text-align: center;*/
 }
 
 #ver-galeria{
@@ -186,14 +230,7 @@ footer{
 	padding: 30px;
 }
 
-#hero .overlay{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	z-index: 1;
-}
+
 
 #hero .carousel-caption{
 	z-index: 2;
@@ -202,4 +239,116 @@ footer{
 .capa-absolute{
 	position: absolute;
 	top: 0;
+}
+
+.to-top{
+	background-color:  #fdb740;
+	color:  #B36D05;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	z-index: 100;
+}
+
+.to-top i{
+	color: #B36D05;
+	font-size: 60px;
+	
+}
+
+.to-top:hover{
+	background-color:  #FFD27F;
+	color:  #B36D05;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	z-index: 100;
+}
+
+#reservaciones{
+	border-radius: 10px;
+	padding: 20px;
+	left: 2.5%;
+	width: 95%;
+	position: sticky;	
+  	top: 20PX;
+	background-color:  #fff;
+	z-index: 100;
+}
+
+#hero-habitaciones{
+	background-image: url("../img/pattern.png");
+	padding-top: 2% 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+}
+
+.habitaciones{
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #E3E3E3;
+	
+}
+
+i{
+	font-size: 25px;	
+}
+
+.btn-habitaciones{
+	margin: 0 20px;
+	background-color: #fdb740;
+	color: #FFFFFF;
+	width:150px;
+	height:40px;
+	border-radius: 0%;
+	text-decoration: none;
+	margin-bottom: 30px;
+}
+
+.btn-habitaciones:hover{
+	background-color: #B36D05;
+	color: #FFFFFF;
+	width:150px;
+	height:40px;
+	border-radius: 0%;
+	text-decoration: none;
+	margin-bottom: 30px;
+}
+
+.btn-adoberesort:hover{
+	background-color: #B36D05;
+	color: #FFFFFF;
+	width:150px;
+	height:40px;
+	border-radius: 0%;
+	text-decoration: none;
+	margin-bottom: 30px;
+}
+
+#lugares-de-interes{
+	background-color: #dbdbdb;
+	margin-bottom: 60px;
+	margin-top: 30px;
+	padding-bottom: 30px;
+}
+
+.marcos{
+	border-radius: 30px;
+	margin-top: 20px
+}
+
+img{
+	border-radius: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
